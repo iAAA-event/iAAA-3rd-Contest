@@ -1,0 +1,84 @@
+[project]
+name = "evaluation"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "tensorflow[and-cuda] (>=2.20.0,<3.0.0)",
+    "keras (>=3.13.0,<4.0.0)",
+    "numpy (>=2,<2.3.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "pydicom (>=3.0.1,<4.0.0)",
+    "pydantic (>=2.12.5,<3.0.0)",
+    "pydantic-settings (>=2.12.0,<3.0.0)",
+    "pydantic-core (>=2.41.5,<3.0.0)",
+    "simpleitk (>=2.5.3,<3.0.0)",
+    "pillow (>=12.0.0,<13.0.0)",
+    "nibabel (>=5.3.3,<6.0.0)",
+    "omegaconf (>=2.3.0,<3.0.0)",
+    "pyyaml (>=6.0.3,<7.0.0)",
+    "torchsummary (>=1.5.1,<2.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "sklearn-pandas (>=2.2.0,<3.0.0)",
+    "scikit-image (>=0.25.2,<0.26.0)",
+    "scipy (<1.16)",
+    "opencv-python (>=4.12.0.88,<5.0.0.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "rich (>=14.2.0,<15.0.0)",
+    "imageio-ffmpeg (>=0.6.0,<0.7.0)",
+    "albumentations (>=2.0.8,<3.0.0)",
+    "imbalanced-learn (>=0.14.0,<0.15.0)",
+    "fastai (>=2.8.6,<3.0.0)",
+    "tensorflow-datasets (>=4.9.9,<5.0.0)",
+    "monai[clearml,einops,fire,segment-anything,tifffile] (>=1.5.1,<2.0.0)",
+    "keras-vit (>=1.0.1,<2.0.0)",
+    "onnxruntime (>=1.23.2,<2.0.0)",
+    "itk (>=5.4.5,<6.0.0)",
+    "dipy (>=1.11.0,<2.0.0)",
+    "timm (>=1.0.22,<2.0.0)",
+    "torchmetrics (>=1.8.2,<2.0.0)",
+    "torch-geometric (>=2.7.0,<3.0.0)",
+    "torchio (>=0.21.0,<0.22.0)",
+    "imutils (>=0.5.4,<0.6.0)",
+    "optuna (>=4.6.0,<5.0.0)",
+    "tweepy (>=4.16.0,<5.0.0)",
+    "ipython (>=9.8.0,<10.0.0)",
+    "typer (>=0.20.0,<0.21.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=6.5.0,<7.0.0)",
+    "keras-applications (>=1.0.8,<2.0.0)",
+    "tensorrt (>=10.14.1.48.post1,<11.0.0.0)",
+    "lightning (>=2.6.0,<3.0.0)",
+    "dill (>=0.4.0,<0.5.0)",
+    "lightgbm (>=4.6.0,<5.0.0)",
+    "ultralytics (>=8.3.240,<9.0.0)",
+    "graphviz (>=0.21,<0.22)",
+    "tornado (>=6.5.4,<7.0.0)",
+    "transformers (>=4.57.3,<5.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "cachetools (>=6.2.4,<7.0.0)",
+    "vision-transformer-pytorch (>=1.0.3,<2.0.0)",
+    "joblib (>=1.5.3,<2.0.0)",
+    "antspyx (>=0.6.1,<0.7.0)",
+    "xgboost (>=3.1.2,<4.0.0)",
+    "antspyx (>=0.6.1,<0.7.0)",
+    "mlflow (>=3.7.0,<4.0.0)",
+    "openai (>=2.13.0,<3.0.0)",
+    "google-genai (>=1.56.0,<2.0.0)",
+    "flax (>=0.12.4,<0.13.0)",
+    "pydub (>=0.25.1,<0.26.0)",
+    "pyaudio (>=0.2.14,<0.3.0)"
+]
+
+[tool.poetry]
+packages = [{include = "evaluation", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
