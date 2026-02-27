@@ -53,13 +53,13 @@ dependencies = [
     "plotly (>=6.5.0,<7.0.0)",
     "keras-applications (>=1.0.8,<2.0.0)",
     "tensorrt (>=10.14.1.48.post1,<11.0.0.0)",
-    "lightning (>=2.6.0,<3.0.0)",
+    "lightning (>2.2.1,<=2.4.0)",
     "dill (>=0.4.0,<0.5.0)",
     "lightgbm (>=4.6.0,<5.0.0)",
     "ultralytics (>=8.3.240,<9.0.0)",
     "graphviz (>=0.21,<0.22)",
     "tornado (>=6.5.4,<7.0.0)",
-    "transformers (>=4.57.3,<5.0.0)",
+    "transformers (>=4.57.0,<4.58.0)",
     "openpyxl (>=3.1.5,<4.0.0)",
     "cachetools (>=6.2.4,<7.0.0)",
     "vision-transformer-pytorch (>=1.0.3,<2.0.0)",
@@ -72,7 +72,17 @@ dependencies = [
     "google-genai (>=1.56.0,<2.0.0)",
     "flax (>=0.12.4,<0.13.0)",
     "pydub (>=0.25.1,<0.26.0)",
-    "pyaudio (>=0.2.14,<0.3.0)"
+    "pyaudio (>=0.2.14,<0.3.0)",
+    "torch (>=2.10.0,<3.0.0)",
+    "speechbrain (>=1.0.3,<2.0.0)",
+    "soundfile (>=0.13.1,<0.14.0)",
+    "librosa (>=0.11.0,<0.12.0)",
+    "torchaudio (>=2.10.0,<3.0.0)",
+    "audiomentations (>=0.43.1,<0.44.0)",
+    "nemo-toolkit[asr] (>=2.7.0,<3.0.0)",
+    "catboost (>=1.2.10,<2.0.0)",
+    "voxceleb-luigi (>=0.2.0,<0.3.0)",
+    "huggingface-hub (>=0.34.0,<1.0)"
 ]
 
 [tool.poetry]
